@@ -6,30 +6,27 @@
     <title>Tuna Unified</title>
 
     <link rel="stylesheet" type="text/css" href="styles/style.css" />
-
-    <link rel="preconnect" href="https://challenges.cloudflare.com">
+    
     <script
-      src="https://challenges.cloudflare.com/turnstile/v0/api.js"
-      async
-      defer
+        src="https://challenges.cloudflare.com/turnstile/v0/api.js"
+        async
+        defer
     ></script>
+
+    <!-- <script src="js/testalert.js"></script> -->
+
+
 </head>
 
 <body>
-    <div
-      class="cf-turnstile"
-      data-sitekey="<0x4AAAAAACQnu0IJwMpw0MD_>"
-      data-theme="light"
-      data-size="normal"
-      data-callback="onSuccess"
-    ></div>
+    
     
     <header>
         <h1>Tuna Unified</h1>
         <aside>Tuna</aside>
     </header>
-        <div class="cf-turnstile" data-sitekey="<YOUR-SITE-KEY>"></div>
-        <h2>Tuna</h2>
+
+        <div class="cf-turnstile" data-sitekey="1x00000000000000000000AA" data-theme="light"></div>
         
         <p>Tuna</p>
         
@@ -42,5 +39,10 @@
 
         <img src="images/albacore.jpg" alt="Albacore"> 
     
+        <p id="not tuna">Yellowtail</p>
+
+        <script>
+        document.getElementById("not tuna").innerHTML += " is not tuna!";
+        </script> 
 </body>
 </html>
